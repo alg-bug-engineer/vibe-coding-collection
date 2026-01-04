@@ -19,6 +19,9 @@ vibe-coding-collection/
 │   │   ├── agent-frameworks.md                 # AI Agent 框架详解
 │   │   ├── open-source-models.md               # 开源代码模型指南
 │   │   ├── github-repositories.md              # GitHub 仓库推荐
+│   │   ├── experts-docs.md                     # 国内外大咖与大厂文档 🆕
+│   │   ├── tools-cases.md                     # 工具与实战案例 🆕
+│   │   ├── video-tutorials.md                  # 视频教程资源 🆕
 │   │   ├── tutorials.md                        # 教程与学习路径
 │   │   └── news.md                             # 最新动态和新闻
 │   │
@@ -161,7 +164,70 @@ vibe-coding-collection/
 
 ---
 
-#### 7. [docs/tutorials.md](docs/tutorials.md)
+#### 7. [docs/experts-docs.md](docs/experts-docs.md) 🆕
+**用途**: 国内外大咖与大厂官方文档
+
+**适合人群**: 想系统学习 AI 编程理论的人
+
+**主要内容**:
+- 国外专家：Andrew Ng、Andrej Karpathy、Jeremy Howard
+- 国内专家：李沐、周志华、傅盛
+- 国际大厂：Microsoft、Google、OpenAI、Amazon、Meta、Anthropic
+- 国内大厂：百度、阿里、腾讯、华为、字节跳动、小米、网易
+- 精选博客与专栏
+- 学术资源和评测基准
+
+**何时使用**:
+- ✅ 系统学习 AI 理论
+- ✅ 查看大厂官方文档
+- ✅ 学习专家课程
+- ✅ 跟踪学术研究
+
+---
+
+#### 8. [docs/tools-cases.md](docs/tools-cases.md) 🆕
+**用途**: 工具与实战案例集合
+
+**适合人群**: 需要实践和案例的开发者
+
+**主要内容**:
+- AI 编程工具：Cursor、Copilot、Aider、Continue 等
+- IDE、CLI、代码审查、文档生成、测试工具
+- 实战案例：Web、移动、数据科学、DevOps、游戏开发
+- 工作流程案例：从需求到部署的完整流程
+- 最佳实践和插件推荐
+- 工具对比表格
+
+**何时使用**:
+- ✅ 查找特定工具
+- ✅ 学习实战案例
+- ✅ 优化工作流程
+- ✅ 选择合适工具
+
+---
+
+#### 9. [docs/video-tutorials.md](docs/video-tutorials.md) 🆕
+**用途**: 视频教程资源汇总
+
+**适合人群**: 喜欢视频学习的人
+
+**主要内容**:
+- YouTube 国际教程：FreeCodeCamp、Andrej Karpathy、LangChain 等
+- B站 中文教程：李沐、同济子豪兄、唐宇迪、Datawhale 等
+- 系统学习路径推荐（3 条路径）
+- 专题学习（Cursor、Copilot、Prompt Engineering 等）
+- 学习建议和配套资源
+- 精选推荐
+
+**何时使用**:
+- ✅ 观看视频学习
+- ✅ 查找特定教程
+- ✅ 规划学习路径
+- ✅ 配合其他文档学习
+
+---
+
+#### 10. [docs/tutorials.md](docs/tutorials.md)
 **用途**: 系统教程和学习路径
 
 **适合人群**: 按步骤学习的人
@@ -181,7 +247,7 @@ vibe-coding-collection/
 
 ---
 
-#### 8. [docs/news.md](docs/news.md)
+#### 11. [docs/news.md](docs/news.md)
 **用途**: 2025 年最新动态和新闻
 
 **适合人群**: 关注最新进展的人
@@ -201,7 +267,7 @@ vibe-coding-collection/
 
 ### 🔍 研究资源 (Research Resources)
 
-#### 9. [COMPREHENSIVE_RESOURCES_RESEARCH.md](COMPREHENSIVE_RESOURCES_RESEARCH.md) - 18KB 🆕
+#### 12. [COMPREHENSIVE_RESOURCES_RESEARCH.md](COMPREHENSIVE_RESOURCES_RESEARCH.md) - 18KB 🆕
 **用途**: 综合资源研究报告（最全面）
 
 **适合人群**: 研究者、深度学习者
@@ -231,7 +297,7 @@ vibe-coding-collection/
 
 ---
 
-#### 10. [SEARCH_STRATEGY_AND_TASKS.md](SEARCH_STRATEGY_AND_TASKS.md) - 13KB 🆕
+#### 13. [SEARCH_STRATEGY_AND_TASKS.md](SEARCH_STRATEGY_AND_TASKS.md) - 13KB 🆕
 **用途**: 系统化的网络搜索方法
 
 **适合人群**: 想自己发现资源的人
@@ -259,7 +325,7 @@ vibe-coding-collection/
 
 ---
 
-#### 11. [QUICK_NAVIGATION.md](QUICK_NAVIGATION.md) - 12KB 🆕
+#### 14. [QUICK_NAVIGATION.md](QUICK_NAVIGATION.md) - 12KB 🆕
 **用途**: 快速访问最重要资源
 
 **适合人群**: 新手、忙碌的开发者
@@ -291,7 +357,7 @@ vibe-coding-collection/
 
 ### 📋 项目管理 (Project Management)
 
-#### 12. [TASK_COMPLETION_SUMMARY.md](TASK_COMPLETION_SUMMARY.md) - 15KB 🆕
+#### 15. [TASK_COMPLETION_SUMMARY.md](TASK_COMPLETION_SUMMARY.md) - 15KB 🆕
 **用途**: 搜索任务完成总结
 
 **适合人群**: 项目维护者、贡献者
@@ -313,7 +379,7 @@ vibe-coding-collection/
 
 ---
 
-#### 13. [UPDATE-SUMMARY.md](UPDATE-SUMMARY.md) - 9.1KB
+#### 16. [UPDATE-SUMMARY.md](UPDATE-SUMMARY.md) - 9.1KB
 **用途**: 最近更新的内容汇总
 
 **适合人群**: 想了解最新变化的用户
@@ -329,7 +395,7 @@ vibe-coding-collection/
 
 ---
 
-#### 14. [awesome-vibe-coding-analysis.md](awesome-vibe-coding-analysis.md) - 12KB
+#### 17. [awesome-vibe-coding-analysis.md](awesome-vibe-coding-analysis.md) - 12KB
 **用途**: 对比分析 awesome-vibe-coding 仓库
 
 **适合人群**: 项目维护者、研究者
@@ -345,7 +411,7 @@ vibe-coding-collection/
 
 ---
 
-#### 15. [CONTRIBUTING.md](CONTRIBUTING.md) - 3.8KB
+#### 18. [CONTRIBUTING.md](CONTRIBUTING.md) - 3.8KB
 **用途**: 贡献指南
 
 **适合人群**: 想贡献的人
@@ -362,7 +428,7 @@ vibe-coding-collection/
 
 ---
 
-#### 16. [CONTRIBUTORS.md](CONTRIBUTORS.md) - 534B
+#### 19. [CONTRIBUTORS.md](CONTRIBUTORS.md) - 534B
 **用途**: 贡献者列表
 
 **适合人群**: 所有用户
@@ -376,7 +442,7 @@ vibe-coding-collection/
 
 ---
 
-#### 17. [FAQ.md](FAQ.md) - 5.4KB
+#### 20. [FAQ.md](FAQ.md) - 5.4KB
 **用途**: 常见问题解答
 
 **适合人群**: 所有用户
@@ -393,7 +459,7 @@ vibe-coding-collection/
 
 ---
 
-#### 18. [GITHUB_SETUP_GUIDE.md](GITHUB_SETUP_GUIDE.md) - 6.8KB
+#### 21. [GITHUB_SETUP_GUIDE.md](GITHUB_SETUP_GUIDE.md) - 6.8KB
 **用途**: GitHub 设置指南
 
 **适合人群**: 新用户
@@ -434,6 +500,21 @@ vibe-coding-collection/
 1. **[docs/open-source-models.md](docs/open-source-models.md)** - 部署指南
 2. **[docs/ai-tools.md](docs/ai-tools.md)** - 本地工具
 
+### 我想系统学习专家课程
+
+1. **[docs/experts-docs.md](docs/experts-docs.md)** - 国内外专家和大厂文档
+2. **[docs/video-tutorials.md](docs/video-tutorials.md)** - 视频教程
+
+### 我想查看实战案例
+
+1. **[docs/tools-cases.md](docs/tools-cases.md)** - 工具与实战案例
+2. **[docs/github-repositories.md](docs/github-repositories.md)** - 实战项目
+
+### 我想观看视频教程
+
+1. **[docs/video-tutorials.md](docs/video-tutorials.md)** - 视频教程汇总
+2. **[docs/experts-docs.md](docs/experts-docs.md)** - 专家课程链接
+
 ### 我想发现更多资源
 
 1. **[COMPREHENSIVE_RESOURCES_RESEARCH.md](COMPREHENSIVE_RESOURCES_RESEARCH.md)** - 已收集的资源
@@ -443,7 +524,8 @@ vibe-coding-collection/
 ### 我想系统学习教程
 
 1. **[docs/tutorials.md](docs/tutorials.md)** - 教程汇总
-2. **[QUICK_NAVIGATION.md](QUICK_NAVIGATION.md)** - 学习路线
+2. **[docs/video-tutorials.md](docs/video-tutorials.md)** - 视频学习路径
+3. **[QUICK_NAVIGATION.md](QUICK_NAVIGATION.md)** - 学习路线
 
 ### 我想了解最新动态
 
@@ -470,24 +552,24 @@ vibe-coding-collection/
 
 | 类型 | 数量 | 总大小 |
 |-----|------|--------|
-| 核心文档 | 8 | ~50KB |
+| 核心文档 | 11 | ~80KB |
 | 研究资源 | 3 | ~43KB |
 | 项目管理 | 6 | ~47KB |
-| **总计** | **18** | **~140KB** |
+| **总计** | **21** | **~170KB** |
 
 ### 按更新时间
 
 | 时间 | 文件 | 说明 |
 |-----|------|------|
-| 2025-01-04 | 3 个新文件 | 🆕 标记的文件 |
+| 2025-01-04 | 6 个新文件 | 🆕 标记的文件（含 3 个新文档） |
 | 之前 | 15 个文件 | 已有文档 |
 
 ### 按使用频率
 
 | 频率 | 文件 |
 |-----|------|
-| 🔥 高频 | README.md, QUICK_NAVIGATION.md, docs/ai-tools.md |
-| 📖 中频 | docs/tutorials.md, docs/github-repositories.md, COMPREHENSIVE_RESOURCES_RESEARCH.md |
+| 🔥 高频 | README.md, QUICK_NAVIGATION.md, docs/ai-tools.md, docs/video-tutorials.md |
+| 📖 中频 | docs/tutorials.md, docs/github-repositories.md, docs/experts-docs.md, docs/tools-cases.md |
 | 🔧 低频 | CONTRIBUTING.md, GITHUB_SETUP_GUIDE.md, TASK_COMPLETION_SUMMARY.md |
 
 ---
@@ -508,6 +590,9 @@ README.md (主入口)
     ├─→ 深入学习:
     │   ├─→ docs/agent-frameworks.md
     │   ├─→ docs/open-source-models.md
+    │   ├─→ docs/experts-docs.md
+    │   ├─→ docs/tools-cases.md
+    │   ├─→ docs/video-tutorials.md
     │   └─→ docs/tutorials.md
     │
     ├─→ 研究资源:
@@ -586,6 +671,9 @@ README.md (主入口)
 - 🚀 快速开始: [QUICK_NAVIGATION.md](QUICK_NAVIGATION.md)
 - 📚 全面资源: [COMPREHENSIVE_RESOURCES_RESEARCH.md](COMPREHENSIVE_RESOURCES_RESEARCH.md)
 - 🔍 搜索方法: [SEARCH_STRATEGY_AND_TASKS.md](SEARCH_STRATEGY_AND_TASKS.md)
+- 👨‍🏫 专家课程: [docs/experts-docs.md](docs/experts-docs.md)
+- 🛠️ 实战案例: [docs/tools-cases.md](docs/tools-cases.md)
+- 🎥 视频教程: [docs/video-tutorials.md](docs/video-tutorials.md)
 - 🎯 主入口: [README.md](README.md)
 
 **开始使用**: 选择一个文件，开始你的 Vibe Coding 之旅！🚀
