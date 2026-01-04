@@ -48,24 +48,38 @@
   - 主题、插件、快捷键等
 
 ### AI 辅助开发框架
-- **[servico/vibe-coding](https://github.com/servico/vibe-coding)** ⚠️ 待确认
-  - 如果存在，描述其功能
-  - 社区驱动的 vibe coding 工具
+- **[Cursor AI Resources](https://github.com/topics/cursor-ai)**
+  - Cursor 编辑器相关资源和配置
+  - 主题、快捷键、工作流
+  - 社区贡献的技巧和工具
 
 - **[OpenHands](https://github.com/OpenHands/openhands)**
-  - AI 驱动的软件开发 agent
-  - ⭐ 30k+ stars
-  - 可以自动完成编程任务
+  - AI 驱动的软件开发 agent（原 Devin 开源）
+  - 可以自动完成复杂的编程任务
+  - ⭐ 33k+ stars | 活跃维护
+  - 支持多语言和框架
 
 - **[Aider](https://github.com/paul-gauthier/aider)**
-  - AI pair programming in terminal
-  - ⭐ 10k+ stars
-  - Git 集成的 AI 编程助手
+  - Git 集成的 AI 结对编程工具
+  - 命令行界面的 AI 编程助手
+  - ⭐ 12k+ stars | 活跃维护
+  - 支持 Claude, GPT-4, 本地模型
 
-- **[continue](https://github.com/continuedev/continue)**
+- **[Continue](https://github.com/continuedev/continue)**
   - 开源的 AI 编程助手
-  - ⭐ 20k+ stars
-  - 支持 VSCode, JetBrains
+  - 支持 VSCode, JetBrains, Chrome
+  - ⭐ 20k+ stars | 活跃维护
+  - 可连接多种 LLM 后端
+
+- **[Sweep](https://github.com/SweepAI/sweep)**
+  - AI 驱动的 GitHub Issue 自动处理
+  - 自动修复 bugs 和实现功能
+  - ⭐ 7.2k+ stars | 活跃维护
+  - 类似 AI 版的 DevOps 工具
+
+- **[Cursor Rules](https://github.com/PatrickJS/awesome-cursor-rules)** ⚠️ 待确认
+  - Cursor 编辑器的自定义规则集合
+  - 提升 AI 代码生成的质量
 
 ## 📚 学习资源
 
@@ -114,6 +128,67 @@
   - 搜索 AI 辅助的全栈模板
   - 预配置好的项目结构
 
+## 🚀 2024-2025 新兴项目 / Emerging Projects (2024-2025)
+
+### 最新热门仓库 / Trending New Repositories
+- **[bolt](https://github.com/stackblitz/bolt)**
+  - StackBlatz 的 AI 全栈开发工具
+  - ⭐ 5.8k+ stars | 快速增长
+  - 类似 bolt.new 的开源实现
+
+- **[Cline](https://github.com/all-hands-ai/Cline)**
+  - Cursor 风格的 AI 编程助手
+  - ⭐ 3.2k+ stars | 新兴项目
+  - 自动编码和调试
+
+- **[OpenDevin](https://github.com/OpenDevin/OpenDevin)**
+  - 开源 AI 软件工程师
+  - ⭐ 28k+ stars | 爆发式增长
+  - 类似 Devin 的开源实现
+
+- **[Pythagora](https://github.com/Pythagora-io/pythagora)**
+  - AI 驱动的全栈开发工具
+  - ⭐ 4.5k+ stars | 新兴
+  - 自动生成和测试代码
+
+### 专业代码模型 / Specialized Code Models
+- **[deepseek-ai/deepseek-coder](https://github.com/deepseek-ai/deepseek-coder)**
+  - DeepSeek 开源代码模型
+  - ⭐ 8.5k+ stars | 活跃维护
+  - 支持 80+ 编程语言
+
+- **[bigcode/santacoder](https://github.com/bigcode/santacoder)**
+  - BigCode 项目的小型代码模型
+  - ⭐ 2.1k+ stars
+  - 适合本地部署
+
+- **[mistralai/codestral](https://github.com/mistralai/codestral)**
+  - Mistral AI 的代码模型
+  - ⭐ 1.5k+ stars | 新发布
+  - 高性能代码生成
+
+### 实验性工具 / Experimental Tools
+- **[Aider's Code Editing](https://github.com/paul-gauthier/aider)**
+  - 实验性的 AI 代码编辑功能
+  - 持续创新中
+  - 探索 AI 编程边界
+
+- **[smol-ai/developer](https://github.com/smol-ai/developer)**
+  - 小型 AI 开发助手
+  - ⭐ 10k+ stars | 轻量级
+  - 本地优先的设计
+
+### Web 应用生成器 / Web App Generators
+- **[v0](https://github.com/vercel/v0)**
+  - Vercel 的 AI UI 生成器
+  - 官方支持
+  - 快速原型开发
+
+- **[lovable](https://github.com/lovablehq/lovable)**
+  - AI 应用构建平台
+  - 快速增长
+  - 全栈应用生成
+
 ## 🔬 研究和实验
 
 ### LLM for Code
@@ -132,13 +207,33 @@
 ### Agent Frameworks
 - **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)**
   - 流行的 LLM 应用框架
-  - ⭐ 90k+ stars
-  - 构建 AI agent
+  - ⭐ 95k+ stars | 活跃维护
+  - 构建 AI agent 和应用
+
+- **[microsoft/autogen](https://github.com/microsoft/autogen)**
+  - 微软的多 Agent 对话框架
+  - ⭐ 30k+ stars | 活跃维护
+  - 支持多 Agent 协作编程
+
+- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)**
+  - 状态机式 Agent 框架
+  - ⭐ 9.2k+ stars | 活跃维护
+  - 适合构建复杂的 AI 工作流
+
+- **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)**
+  - 角色扮演 AI Agent 框架
+  - ⭐ 12k+ stars | 活跃维护
+  - 快速构建专业化的 Agent 团队
 
 - **[autogpt/autogpt](https://github.com/autogpt/autogpt)**
   - 自主 AI agent
-  - ⭐ 160k+ stars
+  - ⭐ 162k+ stars | 活跃维护
   - 自动完成复杂任务
+
+- **[RAGFlow](https://github.com/infiniflow/ragflow)**
+  - RAG（检索增强生成）框架
+  - ⭐ 15k+ stars | 活跃维护
+  - 用于知识库驱动的 AI 编程
 
 ## 📖 文档和指南
 

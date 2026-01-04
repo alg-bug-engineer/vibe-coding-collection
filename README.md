@@ -2,14 +2,20 @@
 
 > 收集关于 Vibe Coding（氛围编程）的教程、新闻、视频、文档等高质量资源
 
+**📘 快速导航**: [文件索引](FILE_INDEX.md) | [快速导航指南](QUICK_NAVIGATION.md) | [综合研究报告](COMPREHENSIVE_RESOURCES_RESEARCH.md)
+
 ## 📖 什么是 Vibe Coding？
 
-**Vibe Coding**（氛围编程）是一种新兴的编程范式，强调通过自然语言与 AI 工具协作来完成软件开发。核心理念包括：
+**Vibe Coding**（氛围编程）是由 Andrej Karpathy 在 2025 年 2 月提出的概念，这是一种新兴的编程范式，强调通过自然语言与 AI 工具协作来完成软件开发。
 
-- 🤝 **AI 协作优先**：与 AI 助手（如 Claude、GPT-4、Copilot）结对编程
-- 🗣️ **自然语言交互**：用人类语言描述需求，让 AI 生成或修改代码
+> "I just write code, the AI writes the code." - Andrej Karpathy
+
+### 核心理念
+
+- 🤝 **AI 协作优先**：开发者转变为 "Manager"，AI 助手（如 Claude、GPT-4）负责具体代码实现
+- 🗣️ **自然语言交互**：用人类语言描述需求，通过 Prompt 迭代
 - ⚡ **快速迭代**：专注于想法和功能的快速实现，而非语法细节
-- 🎨 **创意驱动**：强调开发者的意图和创意，而非传统编码规范
+- 📊 **形式化定义**：根据 YuyaoGe 的研究，Vibe Coding 可被视为一个受约束的马尔可夫决策过程（CMDP），包含多种开发模式（如迭代对话、测试驱动等）。
 
 ### 核心特征
 
@@ -17,6 +23,31 @@
 - **Iterative**：通过对话不断细化和改进
 - **Low-Friction**：减少认知负担，让 AI 处理繁琐的语法和框架细节
 - **Democratizing**：降低编程门槛，让更多人能够创造软件
+
+## 🔥 精选 Vibe Coding 仓库
+
+以下是社区中最高质量的 Vibe Coding 相关资源库，强烈推荐 Star 和关注：
+
+### 📚 综合指南与列表
+- **[YuyaoGe/Awesome-Vibe-Coding](https://github.com/YuyaoGe/Awesome-Vibe-Coding)** ⭐⭐⭐
+  - **简介**：最全面的 Vibe Coding 生态系统综述。
+  - **亮点**：将 Vibe Coding 形式化为一门学科，分析了 5 种开发模式（无约束自动化、迭代对话、规划驱动、测试驱动、上下文增强）。
+  - **适合**：想要深入理解 AI 编程理论和系统架构的开发者。
+
+- **[filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding)**
+  - **简介**：精心策划的 Vibe Coding 参考资料列表。
+  - **亮点**：强调与 AI 协作写代码的各类资源汇总。
+
+- **[analyticalrohit/awesome-vibe-coding-guide](https://github.com/analyticalrohit/awesome-vibe-coding-guide)** (Become 10x Vibe Coder)
+  - **简介**：从入门到精通的实战指南。
+  - **亮点**：提供最佳实践、技巧，教你如何高效且可控地进行 AI 辅助编程，提升 10 倍生产力。
+
+### 🤝 社区与协作
+- **[cpjet64/vibecoding](https://github.com/cpjet64/vibecoding)**
+  - **简介**：Vibe Coders 的协作空间。
+  - **亮点**：聚集了关于编程中"人"的因素的智慧、技巧和见解。
+
+---
 
 ## 🔥 官方资源
 
@@ -88,17 +119,17 @@
   - 与传统编程的对比分析
   - 适用场景和最佳实践
 
-- **[AI 编程工具完整清单](docs/ai-tools.md)** ⭐ 新增
+- **[AI 编程工具完整清单](docs/ai-tools.md)**
   - 50+ AI 编程工具详细对比
   - IDE 集成、CLI 工具、Web 平台全覆盖
   - 快速选择指南和工具矩阵
 
-- **[AI Agent 框架详解](docs/agent-frameworks.md)** ⭐ 新增
+- **[AI Agent 框架详解](docs/agent-frameworks.md)**
   - 6 大主流 Agent 框架（LangChain, AutoGPT, CrewAI 等）
   - 完整的代码示例和快速入门
   - 实战案例和学习路径
 
-- **[开源代码模型指南](docs/open-source-models.md)** ⭐ 新增
+- **[开源代码模型指南](docs/open-source-models.md)**
   - DeepSeek Coder, CodeLlama, Codestral 等主流模型
   - 本地部署完整教程（Ollama, vLLM）
   - 硬件需求和性能对比
@@ -120,15 +151,34 @@
   - 保持更新的渠道
 
 ### 📊 项目分析
-- **[awesome-vibe-coding 分析报告](awesome-vibe-coding-analysis.md)** ⭐ 新增
+- **[awesome-vibe-coding 分析报告](awesome-vibe-coding-analysis.md)**
   - 对比分析 awesome-vibe-coding 仓库
   - 识别差距和补充计划
   - 持续改进建议
 
-- **[更新总结](UPDATE-SUMMARY.md)** ⭐ 新增
+- **[更新总结](UPDATE-SUMMARY.md)**
   - 最近更新的内容汇总
   - 新增文件和改进点
   - 后续行动计划
+
+### 🔍 综合研究资源 (2025-01-04 新增)
+- **[综合资源研究报告](COMPREHENSIVE_RESOURCES_RESEARCH.md)**
+  - 70+ GitHub 仓库详细分析
+  - 官方文档和公告汇总
+  - 工具、框架、学习资源全覆盖
+  - 趋势分析和评估标准
+
+- **[搜索策略与任务清单](SEARCH_STRATEGY_AND_TASKS.md)**
+  - 系统化的网络搜索方法
+  - GitHub、技术媒体、社交媒体搜索技巧
+  - 8 大搜索任务和验证标准
+  - 持续监控策略
+
+- **[快速导航指南](QUICK_NAVIGATION.md)**
+  - 必访资源快速访问
+  - 工具对比矩阵
+  - 学习路线和下一步行动
+  - 快速参考卡片
 
 ## 🎥 视频资源
 
