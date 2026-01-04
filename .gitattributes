@@ -1,0 +1,26 @@
+# .gitattributes
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code files
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Documents
+*.pdf binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+
+# OS specific
+.DS_Store binary
+Thumbs.db binary
