@@ -80,6 +80,56 @@
   - 文章：https://github.blog/2023-10-16-introducing-github-copilot-chat/
   - 视频教程：待添加
 
+## 📘 详细指南与资源
+
+### 🎯 核心文档
+- **[Vibe Coding 核心概念](docs/vibe-coding-concepts.md)**
+  - 深入理解 Vibe Coding 的理念、起源和发展
+  - 与传统编程的对比分析
+  - 适用场景和最佳实践
+
+- **[AI 编程工具完整清单](docs/ai-tools.md)** ⭐ 新增
+  - 50+ AI 编程工具详细对比
+  - IDE 集成、CLI 工具、Web 平台全覆盖
+  - 快速选择指南和工具矩阵
+
+- **[AI Agent 框架详解](docs/agent-frameworks.md)** ⭐ 新增
+  - 6 大主流 Agent 框架（LangChain, AutoGPT, CrewAI 等）
+  - 完整的代码示例和快速入门
+  - 实战案例和学习路径
+
+- **[开源代码模型指南](docs/open-source-models.md)** ⭐ 新增
+  - DeepSeek Coder, CodeLlama, Codestral 等主流模型
+  - 本地部署完整教程（Ollama, vLLM）
+  - 硬件需求和性能对比
+
+### 📚 学习资源
+- **[教程与学习路径](docs/tutorials.md)**
+  - 从入门到进阶的系统教程
+  - 官方文档、视频、实战项目
+  - 学习路线图
+
+- **[GitHub 仓库推荐](docs/github-repositories.md)**
+  - 精选 GitHub 仓库和工具
+  - 官方 SDK 和社区项目
+  - 学习资源和实战案例
+
+- **[最新动态和新闻](docs/news.md)**
+  - 2025 年最新产品更新
+  - 行业趋势和研究进展
+  - 保持更新的渠道
+
+### 📊 项目分析
+- **[awesome-vibe-coding 分析报告](awesome-vibe-coding-analysis.md)** ⭐ 新增
+  - 对比分析 awesome-vibe-coding 仓库
+  - 识别差距和补充计划
+  - 持续改进建议
+
+- **[更新总结](UPDATE-SUMMARY.md)** ⭐ 新增
+  - 最近更新的内容汇总
+  - 新增文件和改进点
+  - 后续行动计划
+
 ## 🎥 视频资源
 
 ### 官方视频
