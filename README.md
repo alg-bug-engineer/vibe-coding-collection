@@ -1,401 +1,293 @@
-# Vibe Coding 资源集合
+# Awesome Vibe Coding
 
-> 收集关于 Vibe Coding（氛围编程）的教程、新闻、视频、文档等高质量资源
+A curated list of awesome Vibe Coding resources.
 
-**📘 快速导航**: [文件索引](FILE_INDEX.md) | [快速导航指南](QUICK_NAVIGATION.md) | [综合研究报告](COMPREHENSIVE_RESOURCES_RESEARCH.md)
+> **Vibe Coding**（氛围编程）是由 Andrej Karpathy 在 2025 年提出的新兴编程范式，强调通过自然语言与 AI 工具协作完成软件开发。
 
-## 📖 什么是 Vibe Coding？
+## Contents
 
-**Vibe Coding**（氛围编程）是由 Andrej Karpathy 在 2025 年 2 月提出的概念，这是一种新兴的编程范式，强调通过自然语言与 AI 工具协作来完成软件开发。
+* [Contents](#contents)
+* [General Resources](#general-resources)
+  * [Learning Platforms](#learning-platforms)
+  * [Official Documentation](#official-documentation)
+  * [Tools](#tools)
+  * [YouTube Series](#youtube-series)
+  * [Blogs and News](#blogs-and-news)
+* [Core Concepts](#core-concepts)
+  * [What is Vibe Coding](#what-is-vibe-coding)
+  * [Development Patterns](#development-patterns)
+  * [Best Practices](#best-practices)
+* [AI Coding Tools](#ai-coding-tools)
+  * [IDE Integration](#ide-integration)
+  * [CLI Tools](#cli-tools)
+  * [Web Platforms](#web-platforms)
+  * [Agent Frameworks](#agent-frameworks)
+* [Learning Resources](#learning-resources)
+  * [Tutorials](#tutorials)
+  * [Video Tutorials](#video-tutorials)
+  * [GitHub Repositories](#github-repositories)
+  * [Expert Resources](#expert-resources)
+* [Open Source Models](#open-source-models)
+* [Related Awesome Lists](#related-awesome-lists)
+* [Contributing](#contributing)
+* [License](#license)
+
+## General Resources
+
+### Learning Platforms
+
+* [Khan Academy - Computer Programming](https://www.khanacademy.org/computing/computer-programming)
+* [Coursera - AI and Machine Learning](https://www.coursera.org/browse/computer-science/artificial-intelligence)
+* [edX - Computer Science](https://www.edx.org/course?search_query=programming)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+* [The Odin Project](https://www.theodinproject.com/)
+
+### Official Documentation
+
+* [Anthropic Claude Documentation](https://docs.anthropic.com/claude/docs)
+* [Anthropic Claude API](https://docs.anthropic.com/api/getting-started)
+* [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+* [Cursor Documentation](https://cursor.sh/docs)
+* [OpenAI API Documentation](https://platform.openai.com/docs)
+
+### Tools
+
+* [Cursor](https://cursor.sh/) - AI-powered code editor
+* [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer
+* [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) - Official CLI tool for vibe coding
+* [Aider](https://aider.chat/) - AI pair programmer in your terminal
+* [Continue](https://continue.dev/) - Open-source autopilot for VS Code
+* [Bolt.new](https://bolt.new/) - AI-powered web development platform
+* [v0.dev](https://v0.dev/) - AI UI component generator
+* [Codium](https://www.codium.ai/) - AI-powered test generation
+* [Tabnine](https://www.tabnine.com/) - AI code completion
+* [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS AI coding companion
+* [Bloop](https://bloop.ai/) - AI code search and understanding
+
+### YouTube Series
+
+* [3Blue1Brown](https://www.youtube.com/@3blue1brown) - Math and AI visualizations
+* [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) - Neural Networks: Zero to Hero
+* [StatQuest](https://www.youtube.com/@statquest) - Statistics and machine learning
+* [Traversy Media](https://www.youtube.com/@TraversyMedia) - Web development tutorials
+* [FreeCodeCamp](https://www.youtube.com/@freecodecamp) - Programming tutorials
+* [The Coding Train](https://www.youtube.com/@TheCodingTrain) - Creative coding
+* [Fireship](https://www.youtube.com/@Fireship) - Quick tech tutorials
+
+### Blogs and News
+
+* [Anthropic Blog](https://www.anthropic.com/blog)
+* [GitHub Blog - Copilot](https://github.blog/category/copilot/)
+* [OpenAI Blog](https://openai.com/blog)
+* [TechCrunch - AI](https://techcrunch.com/category/artificial-intelligence/)
+* [The Verge - AI](https://www.theverge.com/ai-artificial-intelligence)
+
+## Core Concepts
+
+### What is Vibe Coding
+
+**Vibe Coding** is a programming paradigm introduced by Andrej Karpathy in February 2025, emphasizing collaboration with AI tools through natural language to complete software development.
 
 > "I just write code, the AI writes the code." - Andrej Karpathy
 
-### 核心理念
+#### Core Principles
 
-- 🤝 **AI 协作优先**：开发者转变为 "Manager"，AI 助手（如 Claude、GPT-4）负责具体代码实现
-- 🗣️ **自然语言交互**：用人类语言描述需求，通过 Prompt 迭代
-- ⚡ **快速迭代**：专注于想法和功能的快速实现，而非语法细节
-- 📊 **形式化定义**：根据 YuyaoGe 的研究，Vibe Coding 可被视为一个受约束的马尔可夫决策过程（CMDP），包含多种开发模式（如迭代对话、测试驱动等）。
+* **AI Collaboration First**: Developers become "Managers", AI assistants (like Claude, GPT-4) handle code implementation
+* **Natural Language Interaction**: Describe requirements in human language, iterate through prompts
+* **Rapid Iteration**: Focus on quick implementation of ideas and features, not syntax details
+* **Formal Definition**: According to YuyaoGe's research, Vibe Coding can be viewed as a Constrained Markov Decision Process (CMDP) with multiple development patterns
 
-### 核心特征
+#### Key Features
 
-- **Intent-First**：从"我想实现什么"开始，而非"怎么写代码"
-- **Iterative**：通过对话不断细化和改进
-- **Low-Friction**：减少认知负担，让 AI 处理繁琐的语法和框架细节
-- **Democratizing**：降低编程门槛，让更多人能够创造软件
+* **Intent-First**: Start with "What do I want to implement" rather than "How to write code"
+* **Iterative**: Continuously refine and improve through dialogue
+* **Low-Friction**: Reduce cognitive burden, let AI handle tedious syntax and framework details
+* **Democratizing**: Lower the barrier to programming, enabling more people to create software
 
-## 🔥 精选 Vibe Coding 仓库
+### Development Patterns
 
-以下是社区中最高质量的 Vibe Coding 相关资源库，强烈推荐 Star 和关注：
+📝 [Vibe Coding Concepts](./docs/vibe-coding-concepts.md) - Detailed analysis of development patterns
 
-### 📚 综合指南与列表
-- **[YuyaoGe/Awesome-Vibe-Coding](https://github.com/YuyaoGe/Awesome-Vibe-Coding)** ⭐⭐⭐
-  - **简介**：最全面的 Vibe Coding 生态系统综述。
-  - **亮点**：将 Vibe Coding 形式化为一门学科，分析了 5 种开发模式（无约束自动化、迭代对话、规划驱动、测试驱动、上下文增强）。
-  - **适合**：想要深入理解 AI 编程理论和系统架构的开发者。
+According to research, Vibe Coding includes 5 main development patterns:
 
-- **[filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding)**
-  - **简介**：精心策划的 Vibe Coding 参考资料列表。
-  - **亮点**：强调与 AI 协作写代码的各类资源汇总。
+1. **Unconstrained Automation**: Fully automated code generation
+2. **Iterative Dialogue**: Step-by-step refinement through conversation
+3. **Planning-Driven**: Generate plans first, then implement
+4. **Test-Driven**: Write tests first, then generate code
+5. **Context-Enhanced**: Leverage project context for better results
 
-- **[analyticalrohit/awesome-vibe-coding-guide](https://github.com/analyticalrohit/awesome-vibe-coding-guide)** (Become 10x Vibe Coder)
-  - **简介**：从入门到精通的实战指南。
-  - **亮点**：提供最佳实践、技巧，教你如何高效且可控地进行 AI 辅助编程，提升 10 倍生产力。
+### Best Practices
 
-### 🤝 社区与协作
-- **[cpjet64/vibecoding](https://github.com/cpjet64/vibecoding)**
-  - **简介**：Vibe Coders 的协作空间。
-  - **亮点**：聚集了关于编程中"人"的因素的智慧、技巧和见解。
+📝 [Best Practices Guide](./docs/tools-cases.md) - Comprehensive best practices and case studies
+
+#### Prompt Engineering Tips
+
+1. **Be Specific**: Clearly describe what you want to implement
+2. **Provide Context**: Explain project background, tech stack, constraints
+3. **Iterate and Refine**: Gradually improve requirements through multiple rounds of dialogue
+4. **Request Explanations**: Ask AI to explain generated code for deeper understanding
+5. **Verify and Test**: Always test AI-generated code
+
+#### Workflow Recommendations
+
+1. **Start with High-Level Design**: Let AI help design architecture first
+2. **Implement in Modules**: Break large tasks into manageable units
+3. **Maintain Conversation Continuity**: Keep context within the same session
+4. **Version Control**: Use Git to record AI-assisted iteration process
+5. **Learn and Grow**: Don't just use code, understand it
+
+## AI Coding Tools
+
+### IDE Integration
+
+* [Cursor](https://cursor.sh/) - AI-native code editor based on VS Code
+* [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer for VS Code, JetBrains, Vim
+* [Continue](https://continue.dev/) - Open-source autopilot for VS Code
+* [Codeium](https://codeium.com/) - Free AI code completion
+* [Tabnine](https://www.tabnine.com/) - AI code completion for multiple IDEs
+
+📝 [Complete AI Tools List](./docs/ai-tools.md) - 50+ AI programming tools with detailed comparisons
+
+### CLI Tools
+
+* [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) - Official CLI tool from Anthropic
+* [Aider](https://aider.chat/) - AI pair programmer in terminal with Git integration
+* [Cline](https://github.com/approximatelabs/cline) - AI assistant for terminal
+* [GitHub Copilot CLI](https://githubnext.com/projects/copilot-cli/) - GitHub Copilot in terminal
+
+### Web Platforms
+
+* [Bolt.new](https://bolt.new/) - AI-powered web development in browser
+* [v0.dev](https://v0.dev/) - AI UI component generator for React/Next.js
+* [Replit](https://replit.com/) - AI-powered online IDE
+* [Codeium](https://codeium.com/) - AI coding assistant in browser
+
+### Agent Frameworks
+
+* [LangChain](https://www.langchain.com/) - Framework for building LLM applications
+* [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agent
+* [CrewAI](https://www.crewai.com/) - Framework for orchestrating role-playing AI agents
+* [OpenHands](https://github.com/columbia/OpenHands) - Autonomous coding agent
+* [Aider](https://aider.chat/) - AI pair programmer with agent capabilities
+
+📝 [Agent Frameworks Guide](./docs/agent-frameworks.md) - Complete guide to AI agent frameworks
+
+## Learning Resources
+
+### Tutorials
+
+📝 [Tutorials and Learning Paths](./docs/tutorials.md) - Comprehensive tutorial collection
+
+#### Getting Started
+
+* [Claude Code Guide](https://docs.anthropic.com/claude/docs/claude-code) - Official Anthropic documentation
+* [GitHub Copilot Quickstart](https://docs.github.com/en/copilot/quickstart) - 15-minute getting started guide
+* [Cursor Introduction](https://cursor.sh/docs/intro) - Official Cursor documentation
+
+#### Advanced Topics
+
+* [Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering) - Anthropic's guide to effective prompting
+* [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering) - Prompting techniques for GPT-4
+* [Effective AI Pair Programming](https://github.blog/2023-10-16-introducing-github-copilot-chat/) - Best practices for AI collaboration
+
+### Video Tutorials
+
+📝 [Video Tutorials Collection](./docs/video-tutorials.md) - Curated video resources
+
+#### Must-Watch Series
+
+* [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) - Andrej Karpathy
+* [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) - Andrew Ng
+* [Cursor Features Deep Dive](https://www.youtube.com/@cursor) - Cursor Official
+
+#### Beginner-Friendly
+
+* [AI Programming for Beginners](https://www.youtube.com/results?search_query=ai+programming+for+beginners) - FreeCodeCamp
+* [Build AI Apps with OpenAI API](https://www.youtube.com/results?search_query=build+ai+apps+openai) - Traversy Media
+
+### GitHub Repositories
+
+📝 [GitHub Repositories Guide](./docs/github-repositories.md) - Curated list of quality repositories
+
+#### Top Vibe Coding Repositories
+
+* [YuyaoGe/Awesome-Vibe-Coding](https://github.com/YuyaoGe/Awesome-Vibe-Coding) ⭐ - Most comprehensive Vibe Coding ecosystem overview
+* [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Curated list of Vibe Coding resources
+* [analyticalrohit/awesome-vibe-coding-guide](https://github.com/analyticalrohit/awesome-vibe-coding-guide) - Become 10x Vibe Coder guide
+* [cpjet64/vibecoding](https://github.com/cpjet64/vibecoding) - Collaboration space for Vibe Coders
+
+#### Official SDKs
+
+* [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) - Anthropic Python SDK
+* [anthropics/anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) - Anthropic TypeScript SDK
+* [openai/openai-python](https://github.com/openai/openai-python) - OpenAI Python library
+
+### Expert Resources
+
+📝 [Expert Resources and Documentation](./docs/experts-docs.md) - Resources from experts and major companies
+
+#### International Experts
+
+* **Andrej Karpathy** - Former Tesla AI Director, Vibe Coding concept creator
+* **Andrew Ng** - DeepLearning.AI founder, AI education pioneer
+* **Jeremy Howard** - Fast.ai founder, practical deep learning advocate
+
+#### Major Companies
+
+* **Microsoft** - GitHub Copilot, Azure AI
+* **Google** - Gemini, TensorFlow
+* **OpenAI** - GPT-4, Codex
+* **Anthropic** - Claude, Claude Code
+
+## Open Source Models
+
+📝 [Open Source Models Guide](./docs/open-source-models.md) - Complete guide to open source code models
+
+### Popular Models
+
+* [DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder) - High-performance code generation model
+* [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model
+* [Codestral](https://mistral.ai/news/codestral/) - Mistral's code generation model
+* [StarCoder](https://github.com/bigcode-project/starcoder) - Open source code generation model
+
+### Local Deployment
+
+* [Ollama](https://ollama.ai/) - Run LLMs locally
+* [vLLM](https://github.com/vllm-project/vllm) - Fast LLM serving and inference
+* [LM Studio](https://lmstudio.ai/) - Desktop app for running LLMs locally
+
+## Related Awesome Lists
+
+* [Awesome AI](https://github.com/owainlewis/awesome-artificial-intelligence)
+* [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+* [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+* [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
+* [Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
+
+We welcome:
+* New tutorials, documentation links (with brief descriptions)
+* Quality video resources
+* GitHub repositories (with reasons for recommendation)
+* Practical experiences and case studies
+* Translations and localization content
+
+When submitting a PR, please ensure:
+1. Resources are accurate and verified
+2. Provide clear descriptions and categorization
+3. Follow existing format
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
 
 ---
 
-## 🔥 官方资源
+**Note**: Vibe Coding is a rapidly evolving field. This repository is continuously updated. We recommend checking regularly for the latest updates.
 
-### Anthropic Claude
-- **官网**: https://www.anthropic.com/claude
-- **文档**: https://docs.anthropic.com/claude/docs
-- **API 文档**: https://docs.anthropic.com/api/getting-started
-- **Claude Code**: Anthropic 官方的 CLI 工具，支持 vibe coding 工作流
-
-### GitHub Copilot
-- **官网**: https://github.com/features/copilot
-- **文档**: https://docs.github.com/en/copilot
-- **Copilot Labs**: https://github.com/features/copilot/x（实验性功能）
-
-### Cursor 编辑器
-- **官网**: https://cursor.sh/
-- **文档**: https://cursor.sh/docs
-- **下载**: https://cursor.sh/download
-
-### Other AI Coding Tools
-- **Codium**: https://www.codium.ai/
-- **Tabnine**: https://www.tabnine.com/
-- **CodeWhisperer** (AWS): https://aws.amazon.com/codewhisperer/
-- **Bloop**: https://bloop.ai/
-
-## 📚 教程与指南
-
-### 入门教程
-
-#### 中文资源
-- **Claude Code 使用指南**（Anthropic 官方）
-  - https://docs.claude.com/en/docs/claude-code
-  - 完整的 CLI 工具使用文档
-
-- **Vibe Coding 实践教程**
-  - 待添加：社区贡献的中文教程
-
-#### 英文资源
-- **Getting Started with AI-Assisted Programming** (OpenAI)
-  - https://platform.openai.com/docs/guides/code
-
-- **GitHub Copilot Documentation**
-  - https://docs.github.com/en/copilot/quickstart
-
-- **Cursor Editor Guide**
-  - https://cursor.sh/docs/intro
-
-### 进阶教程
-
-#### Prompt Engineering for Coding
-- **Anthropic's Prompt Engineering Guide**
-  - https://docs.anthropic.com/claude/docs/prompt-engineering
-  - 学习如何有效地与 Claude 沟通编程需求
-
-- **OpenAI Prompt Engineering**
-  - https://platform.openai.com/docs/guides/prompt-engineering
-  - 针对 GPT-4 的编程提示技巧
-
-#### AI-Assisted Development Best Practices
-- **Effective AI Pair Programming**
-  - 文章：https://github.blog/2023-10-16-introducing-github-copilot-chat/
-  - 视频教程：待添加
-
-## 📘 详细指南与资源
-
-### 🎯 核心文档
-- **[Vibe Coding 核心概念](docs/vibe-coding-concepts.md)**
-  - 深入理解 Vibe Coding 的理念、起源和发展
-  - 与传统编程的对比分析
-  - 适用场景和最佳实践
-
-- **[AI 编程工具完整清单](docs/ai-tools.md)**
-  - 50+ AI 编程工具详细对比
-  - IDE 集成、CLI 工具、Web 平台全覆盖
-  - 快速选择指南和工具矩阵
-
-- **[AI Agent 框架详解](docs/agent-frameworks.md)**
-  - 6 大主流 Agent 框架（LangChain, AutoGPT, CrewAI 等）
-  - 完整的代码示例和快速入门
-  - 实战案例和学习路径
-
-- **[开源代码模型指南](docs/open-source-models.md)**
-  - DeepSeek Coder, CodeLlama, Codestral 等主流模型
-  - 本地部署完整教程（Ollama, vLLM）
-  - 硬件需求和性能对比
-
-### 📚 学习资源
-- **[教程与学习路径](docs/tutorials.md)**
-  - 从入门到进阶的系统教程
-  - 官方文档、视频、实战项目
-  - 学习路线图
-
-- **[GitHub 仓库推荐](docs/github-repositories.md)**
-  - 精选 GitHub 仓库和工具
-  - 官方 SDK 和社区项目
-  - 2024-2025 新兴项目和专业工具
-
-- **[国内外大咖与大厂文档](docs/experts-docs.md)**
-  - 国外专家：Andrew Ng、Andrej Karpathy 等
-  - 国内专家：李沐、周志华等
-  - 国际大厂：Microsoft、Google、OpenAI 等
-  - 国内大厂：百度、阿里、腾讯、华为等
-
-- **[工具与实战案例](docs/tools-cases.md)**
-  - AI 编程工具：Cursor、Copilot、Aider 等
-  - 实战案例：Web、移动、数据科学、DevOps
-  - 工作流程案例：从需求到部署
-  - 最佳实践和插件推荐
-
-- **[视频教程资源](docs/video-tutorials.md)**
-  - YouTube 入门和进阶教程
-  - B站优质中文教程
-  - 系统学习路径推荐
-  - 配套文档和练习平台
-
-- **[最新动态和新闻](docs/news.md)**
-  - 2025 年最新产品更新
-  - 行业趋势和研究进展
-  - 保持更新的渠道
-
-### 📊 项目分析
-- **[awesome-vibe-coding 分析报告](awesome-vibe-coding-analysis.md)**
-  - 对比分析 awesome-vibe-coding 仓库
-  - 识别差距和补充计划
-  - 持续改进建议
-
-- **[更新总结](UPDATE-SUMMARY.md)**
-  - 最近更新的内容汇总
-  - 新增文件和改进点
-  - 后续行动计划
-
-### 🔍 综合研究资源 (2025-01-04 新增)
-- **[综合资源研究报告](COMPREHENSIVE_RESOURCES_RESEARCH.md)**
-  - 70+ GitHub 仓库详细分析
-  - 官方文档和公告汇总
-  - 工具、框架、学习资源全覆盖
-  - 趋势分析和评估标准
-
-- **[搜索策略与任务清单](SEARCH_STRATEGY_AND_TASKS.md)**
-  - 系统化的网络搜索方法
-  - GitHub、技术媒体、社交媒体搜索技巧
-  - 8 大搜索任务和验证标准
-  - 持续监控策略
-
-- **[快速导航指南](QUICK_NAVIGATION.md)**
-  - 必访资源快速访问
-  - 工具对比矩阵
-  - 学习路线和下一步行动
-  - 快速参考卡片
-
-## 🎥 视频资源
-
-详细视频教程资源请查看：**[视频教程资源](docs/video-tutorials.md)**
-
-### 快速推荐
-
-**必看系列**：
-1. **动手学深度学习** - 李沐 (B站)
-2. **Neural Networks: Zero to Hero** - Andrej Karpathy (YouTube)
-3. **AI for Everyone** - Andrew Ng (Coursera)
-4. **Cursor Features Deep Dive** - Cursor Official (YouTube)
-
-**新手友好**：
-1. **AI Programming for Beginners** - FreeCodeCamp (YouTube)
-2. **零基础入门深度学习** - 同济子豪兄 (B站)
-3. **Build AI Apps with OpenAI API** - Traversy Media (YouTube)
-
-### 官方视频
-- **Anthropic Claude YouTube**
-  - https://www.youtube.com/@AnthropicAI
-  - 包含 Claude 使用教程和最佳实践
-
-- **GitHub YouTube - Copilot 系列**
-  - https://www.youtube.com/@GitHub
-  - 搜索 "Copilot" 查看相关教程
-
-## 📰 新闻与动态
-
-### 官方博客
-- **Anthropic Blog**
-  - https://www.anthropic.com/blog
-  - Claude 和 AI 编程的最新更新
-
-- **GitHub Blog**
-  - https://github.blog/category/copilot/
-  - Copilot 相关的新闻和功能更新
-
-- **OpenAI Blog**
-  - https://openai.com/blog
-  - GPT 和代码生成能力的进展
-
-### 技术媒体
-- **TechCrunch - AI 标签**
-  - https://techcrunch.com/category/artificial-intelligence/
-  - AI 编程工具的行业新闻
-
-- **The Verge - AI**
-  - https://www.theverge.com/ai-artificial-intelligence
-  - AI 工具的深度报道
-
-### 中文社区
-- **机器之心** - https://www.jiqizhixin.com/
-- **量子位** - https://www.qbitai.com/
-- **InfoQ 中国** - https://www.infoq.cn/
-
-## 🛠️ GitHub 相关仓库
-
-### 官方仓库
-- **anthropics/anthropic-sdk-python**
-  - https://github.com/anthropics/anthropic-sdk-python
-  - Anthropic 官方 Python SDK
-
-- **anthropics/anthropic-sdk-typescript**
-  - https://github.com/anthropics/anthropic-sdk-typescript
-  - Anthropic 官方 TypeScript SDK
-
-- **github/feedback**
-  - https://github.com/github/feedback
-  - 提供 Copilot 反馈和建议
-
-### 社区工具与扩展
-- **Cursor 配置和插件**
-  - 搜索关键词：`cursor-theme`, `cursor-snippets`
-  - https://github.com/search?q=cursor+editor&type=repositories
-
-- **AI 编程提示库**
-  - `f/awesome-chatgpt-prompts` - https://github.com/f/awesome-chatgpt-prompts
-  - 包含编程相关的提示词
-
-- **Claude 相关工具**
-  - https://github.com/search?q=claude+ai&type=repositories
-  - 社区构建的 Claude 集成工具
-
-### Vibe Coding 实践项目
-- **AI-Assisted 开源项目**
-  - 搜索关键词：`built-with-copilot`, `built-with-ai`
-  - https://github.com/topics/built-with-copilot
-
-- **Prompt Engineering 资源**
-  - `dair-ai/Prompt-Engineering-Guide` - https://github.com/dair-ai/Prompt-Engineering-Guide
-  - 全面的提示工程指南
-
-### 学习资源仓库
-- **awesome-ai-coding-tools** (示例)
-  - 待创建或发现：AI 编程工具的精选列表
-
-- **prompt-engineering-for-developers**
-  - 待添加：针对开发者的提示工程资源
-
-## 📋 学习路线图
-
-### 初学者路径（1-2 周）
-1. **了解基础** (2-3 天)
-   - 阅读 Vibe Coding 的核心理念
-   - 观看入门视频教程
-   - 安装至少一个 AI 编程工具（推荐 Cursor 或 Claude Code）
-
-2. **工具上手** (3-5 天)
-   - 学习基本的 prompt 技巧
-   - 尝试简单的代码生成任务
-   - 完成官方教程的实践练习
-
-3. **小项目实践** (5-7 天)
-   - 使用 AI 辅助完成一个小型项目
-   - 学习如何与 AI 迭代对话
-   - 体验完整的 vibe coding 工作流
-
-### 进阶路径（1-2 个月）
-1. **深入 Prompt Engineering**
-   - 学习高级提示技巧
-   - 理解如何准确传达编程意图
-
-2. **工作流优化**
-   - 构建个人的 AI 编程工作流
-   - 集成多个 AI 工具
-   - 学习调试和验证 AI 生成的代码
-
-3. **复杂项目实践**
-   - 使用 AI 辅助开发完整应用
-   - 学习架构设计和 AI 协作
-   - 参与开源社区，分享经验
-
-## 💡 最佳实践
-
-### Prompt 技巧
-1. **明确目标**：清晰描述你想要实现的功能
-2. **提供上下文**：说明项目背景、技术栈、约束条件
-3. **迭代细化**：通过多轮对话逐步完善需求
-4. **请求解释**：让 AI 解释生成的代码，加深理解
-5. **验证测试**：始终测试 AI 生成的代码
-
-### 工作流建议
-1. **从高层设计开始**：先让 AI 帮助设计架构
-2. **分模块实现**：将大任务拆分成小的可管理单元
-3. **保持对话连续性**：在同一会话中保持上下文
-4. **版本控制**：使用 Git 记录 AI 辅助的迭代过程
-5. **学习与成长**：不仅要使用代码，更要理解代码
-
-## 🔗 相关资源集合
-
-### 类似项目
-- **Awesome AI Coding** - 待创建或发现
-- **AI-Assisted Development Resources** - 待添加
-
-### 社区
-- **Reddit**: r/artificial, r/LocalLLM, r/OpenAI
-- **Discord**: 各种 AI 编程工具的官方服务器
-- **Twitter**: 关注 #AICoding, #VibeCoding 标签
-
-## 📊 资源质量标准
-
-本仓库收集的资源遵循以下标准：
-- ✅ **准确性**：信息经过验证，确保技术正确
-- ✅ **可靠性**：来源权威，内容持续更新
-- ✅ **完整性**：涵盖从入门到进阶的各个方面
-- ✅ **权威性**：优先官方资源和知名社区贡献
-
-## 🤝 贡献指南
-
-欢迎社区贡献！请提交：
-- 新的教程、文档链接（附带简要描述）
-- 优质视频资源
-- GitHub 相关仓库（说明推荐理由）
-- 实践经验和案例研究
-- 翻译和本地化内容
-
-提交 PR 时请确保：
-1. 资源准确且经过验证
-2. 提供清晰的描述和分类
-3. 遵循现有格式
-
-## 📝 更新日志
-
-- **2025-01-04**: 
-  - 添加国内外大咖与大厂文档
-  - 添加工具与实战案例
-  - 添加视频教程资源
-  - 扩展 GitHub 仓库推荐
-  - 优化目录结构和导航
-- **2025-01-04**: 创建仓库，添加初始资源集合
-- 持续更新中...
-
-## 📄 许可证
-
-本项目采用 CC BY 4.0 许可证 - 允许自由使用和分享，需注明来源
-
----
-
-**注意**：Vibe Coding 是一个快速发展的领域，本仓库会持续更新。建议定期查看最新动态。
-
-**联系方式**：通过 GitHub Issues 提交问题和建议
+**Contact**: Submit questions and suggestions via [GitHub Issues](https://github.com/alg-bug-engineer/vibe-coding-collection/issues)
