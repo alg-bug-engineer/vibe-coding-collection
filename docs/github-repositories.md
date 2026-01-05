@@ -120,6 +120,12 @@
   - 各种语言和框架
 
 ### 框架和模板
+- **[humanstack/vibe-coding-template](https://github.com/humanstack/vibe-coding-template)**
+  - 完整的 Vibe Coding 全栈模板
+  - 包含代码上下文，帮助 AI 编码代理更快构建应用
+  - 减少 token 使用，提高开发效率
+  - ⭐ 新兴项目 | 2025 最新
+
 - **[Nanobot](https://github.com/nanobot-ai/nanobot)** ⚠️ 待确认
   - AI 驱动的项目脚手架
   - 快速启动 vibe coding 项目
@@ -268,4 +274,4 @@
 3. 有清晰的文档和示例
 4. 社区认可度高（stars、forks、issues 讨论）
 
-**更新日期**: 2025-01-04
+**更新日期**: 2025-01-05

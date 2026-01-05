@@ -28,6 +28,7 @@ A curated list of awesome Vibe Coding resources.
   * [GitHub Repositories](#github-repositories)
   * [Expert Resources](#expert-resources)
 * [Open Source Models](#open-source-models)
+* [Research Papers](#research-papers)
 * [Related Awesome Lists](#related-awesome-lists)
 * [Contributing](#contributing)
 * [License](#license)
@@ -36,6 +37,8 @@ A curated list of awesome Vibe Coding resources.
 
 ### Learning Platforms
 
+* [Vibe Coding 101](https://www.vibecoding101.net/) - Free, systematic, practical AI programming tutorials covering Claude, Cursor, Gemini and more
+* [Vibe Coding 零基础 AI 编程课](https://vibecoding.hot/) - From zero to commercial developer course
 * [Khan Academy - Computer Programming](https://www.khanacademy.org/computing/computer-programming)
 * [Coursera - AI and Machine Learning](https://www.coursera.org/browse/computer-science/artificial-intelligence)
 * [edX - Computer Science](https://www.edx.org/course?search_query=programming)
@@ -59,6 +62,8 @@ A curated list of awesome Vibe Coding resources.
 * [Continue](https://continue.dev/) - Open-source autopilot for VS Code
 * [Bolt.new](https://bolt.new/) - AI-powered web development platform
 * [v0.dev](https://v0.dev/) - AI UI component generator
+* [Div-idy](https://div-idy.com/) - First fully AI-generated website builder platform
+* [Void](https://vibeai.vip/) - Open-source AI code editor based on VS Code, emphasizing privacy and local control
 * [Codium](https://www.codium.ai/) - AI-powered test generation
 * [Tabnine](https://www.tabnine.com/) - AI code completion
 * [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS AI coding companion
@@ -215,6 +220,7 @@ According to research, Vibe Coding includes 5 main development patterns:
 * [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) - Curated list of Vibe Coding resources
 * [analyticalrohit/awesome-vibe-coding-guide](https://github.com/analyticalrohit/awesome-vibe-coding-guide) - Become 10x Vibe Coder guide
 * [cpjet64/vibecoding](https://github.com/cpjet64/vibecoding) - Collaboration space for Vibe Coders
+* [humanstack/vibe-coding-template](https://github.com/humanstack/vibe-coding-template) - Complete full-stack template for vibe coding with code context
 
 #### Official SDKs
 
@@ -255,6 +261,13 @@ According to research, Vibe Coding includes 5 main development patterns:
 * [Ollama](https://ollama.ai/) - Run LLMs locally
 * [vLLM](https://github.com/vllm-project/vllm) - Fast LLM serving and inference
 * [LM Studio](https://lmstudio.ai/) - Desktop app for running LLMs locally
+
+## Research Papers
+
+📝 Academic research on Vibe Coding and AI-assisted programming
+
+* [Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding](https://arxiv.org/abs/2509.12491) - Qualitative study on collaboration, communication, flow, and trust in vibe coding
+* [Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks](https://arxiv.org/abs/2512.03262) - Evaluation of security vulnerabilities in AI-generated code for real-world tasks
 
 ## Related Awesome Lists
 
