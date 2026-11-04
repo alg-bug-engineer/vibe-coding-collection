@@ -65,7 +65,7 @@ A curated list of awesome Vibe Coding resources.
 * [Div-idy](https://div-idy.com/) - First fully AI-generated website builder platform
 * [Void](https://vibeai.vip/) - Open-source AI code editor based on VS Code, emphasizing privacy and local control
 * [Codium](https://www.codium.ai/) - AI-powered test generation
-* [agent-qa](https://vostride.com) - Natural-language web and mobile QA with persistent memory and self-improvement
+* [agent-qa](https://github.com/vostride/agent-qa) - Natural-language testing for web, Android, and iOS via CLI and MCP (early-stage; Node.js 24+; model usage costs apply; FSL-1.1-ALv2 restricts competing commercial offerings)
 * [Tabnine](https://www.tabnine.com/) - AI code completion
 * [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS AI coding companion
 * [Bloop](https://bloop.ai/) - AI code search and understanding
