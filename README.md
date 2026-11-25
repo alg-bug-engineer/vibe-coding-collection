@@ -167,6 +167,7 @@ According to research, Vibe Coding includes 5 main development patterns:
 * [v0.dev](https://v0.dev/) - AI UI component generator for React/Next.js
 * [Replit](https://replit.com/) - AI-powered online IDE
 * [Codeium](https://codeium.com/) - AI coding assistant in browser
+* [Kite](https://kite.new/) - Design tool where coding agents (Claude Code, Codex, Cursor) draw editable UI layers via MCP, then copy frames as HTML/React/Tailwind
 
 ### Agent Frameworks
 
